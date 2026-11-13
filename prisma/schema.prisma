@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Strike {
+  id              String    @id @default(uuid())
+  title           String
+  category        String
+  entityName      String?
+  city            String?
+  state           String?  @db.VarChar(2)
+  scope           String   @default("municipal")
+  lat             Float?
+  lng             Float?
+  startedAt       DateTime
+  endedAt         DateTime?
+  status          String    @default("active")
+  demands         String?
+  confidence      String    @default("unverified")
+  confidenceScore Float     @default(0)
+  published       Boolean   @default(false)
+  approvedBy      String?
+  approvedAt      DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  eventType       String   @default("greve")
+
+
+  sources         StrikeSource[]
+
+  @@index([state, city, category, startedAt])
+  @@index([status, startedAt])
+  @@index([published, status])
+  @@index([scope, status])
+}
+
+model StrikeSource {
+  id          String    @id @default(uuid())
+  strikeId    String
+  strike      Strike    @relation(fields: [strikeId], references: [id], onDelete: Cascade)
+  url         String
+  publisher   String?
+  publishedAt DateTime?
+  excerpt     String?
+  sourceType  String    @default("news")
+  fetchedAt   DateTime  @default(now())
+
+  @@index([strikeId])
+}
+
+model IngestCandidate {
+  id        String   @id @default(uuid())
+  rawText   String
+  rawUrl    String?
+  extracted Json?
+  score     Float    @default(0)
+  status    String   @default("pending")
+  createdAt DateTime @default(now())
+
+  @@index([status, score])
+}
