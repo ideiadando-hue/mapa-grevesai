@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import 'leaflet/dist/leaflet.css';
+import { Analytics } from '@vercel/analytics/next';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -83,6 +85,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
         </header>
         <div style={{ flex: 1 }}>{children}</div>
+
+        {children}
+        <Analytics />
       </body>
     </html>
   );
