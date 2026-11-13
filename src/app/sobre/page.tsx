@@ -107,11 +107,17 @@ export default function SobrePage() {
         </p>
       </section>
 
-      <section>
+<section>
         <h2 style={{ fontSize: 22, marginBottom: 12 }}>Encontrou um erro?</h2>
         <p>
           Cada registro tem o link da fonte original. Se você identificar uma informação
-          incorreta, confira a fonte e nos avise — a correção é feita a partir dela.
+          incorreta, ou precisar de algum suporte nos avise:{' '}
+          <a
+            href="mailto:ideiadando@gmail.com"
+            style={{ color: '#7c3aed', textDecoration: 'underline' }}
+          >
+            ideiadando@gmail.com
+          </a>
         </p>
       </section>
     </main>
