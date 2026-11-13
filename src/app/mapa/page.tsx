@@ -1,9 +1,5 @@
-import StrikeMapClient from '@/components/StrikeMapClient';
+import MapaComRodape from '@/components/MapaComRodape';
 
 export default function MapaPage() {
-  return (
-    <main style={{ padding: '24px' }}>
-      <StrikeMapClient />
-    </main>
-  );
+  return <MapaComRodape />;
 }
