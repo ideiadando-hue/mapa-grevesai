@@ -117,7 +117,7 @@ export async function POST(request: Request) {
           confidence: strike.confidence,
           confidenceScore: strike.confidenceScore,
           published: false,
-          eventType: extracted.eventType ?? 'greve',
+          eventType: (strike as { eventType?: string }).eventType ?? 'greve',
           sources: {
             create: {
               url: sourceUrl,
