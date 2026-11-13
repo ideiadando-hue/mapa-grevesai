@@ -5,7 +5,6 @@ import "./globals.css";
 import 'leaflet/dist/leaflet.css';
 import { Analytics } from '@vercel/analytics/next';
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -84,9 +83,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
           </div>
         </header>
+
         <div style={{ flex: 1 }}>{children}</div>
 
-        {children}
         <Analytics />
       </body>
     </html>
