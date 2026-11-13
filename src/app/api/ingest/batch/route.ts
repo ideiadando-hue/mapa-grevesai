@@ -84,6 +84,7 @@ export async function POST(request: Request) {
         continue;
       }
 
+      const startDate = new Date(strike.startedAt);
       const duplicate = await prisma.strike.findFirst({
         where: {
           category: strike.category,
@@ -91,8 +92,8 @@ export async function POST(request: Request) {
           city: strike.city,
           state: strike.state,
           startedAt: {
-            gte: new Date(new Date(strike.startedAt).getTime() - 90 * 86400000),
-            lte: new Date(new Date(strike.startedAt).getTime() + 90 * 86400000),
+            gte: new Date(startDate.getTime() - 7 * 86400000),
+            lte: new Date(startDate.getTime() + 7 * 86400000),
           },
         },
       });
