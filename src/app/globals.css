@@ -60,3 +60,44 @@ body {
   object-position: center;
   display: block;
 }
+
+/* Selects e options sempre com texto escuro sobre fundo claro */
+select,
+select option {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* No tema escuro, mantém o mesmo contraste */
+.dark select,
+.dark select option,
+[data-theme='dark'] select,
+[data-theme='dark'] select option {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* Placeholder/estado padrão do select */
+select:invalid,
+select option[value=''] {
+  color: #6b7280;
+}
+
+.dark select,
+[data-theme='dark'] select {
+  background-color: #1f2937;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+.dark select option,
+[data-theme='dark'] select option {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.dark select option:checked,
+[data-theme='dark'] select option:checked {
+  background-color: #2563eb;
+  color: #ffffff;
+}
