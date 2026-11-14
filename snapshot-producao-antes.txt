@@ -1,0 +1,75 @@
+=== AMBIENTE ===
+Banco: postgresql://***@ep-holy-darkness-b6z48iwy-pooler.c-2.sa-east-1.aws.neon.tech/neondb
+Data: 2026-11-14T01:57:47.145Z
+
+=== TOTAIS ===
+Strikes: 46
+  published: true  = 46
+  published: false = 0
+StrikeSources: 143
+
+=== ULTIMOS 15 REGISTROS ===
+┌─────────┬────────────────────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────┬───────────────────────┬───────┬────────────────────┬──────────────────────────┬───────────────────┬───────────┬──────────────────────────┐
+│ (index) │ id                                     │ title                                                                                │ city                  │ state │ category           │ startedAt                │ status            │ published │ createdAt                │
+├─────────┼────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────┼───────────────────────┼───────┼────────────────────┼──────────────────────────┼───────────────────┼───────────┼──────────────────────────┤
+│ 0       │ '97526118-a665-42ba-b247-25e11dbc5861' │ 'Enfermagem da Santa Casa de Campo Grande reduz atividades a 30% do efetivo'         │ 'Campo Grande'        │ 'MS'  │ 'saude'            │ 2026-11-12T00:00:00.000Z │ 'active'          │ true      │ 2026-11-13T14:00:49.612Z │
+│ 1       │ 'a6a22530-59b4-4841-933b-d09d50ffc6e8' │ 'Rodoviários de Manaus iniciam greve por tempo indeterminado por atraso salarial'    │ 'Manaus'              │ 'AM'  │ 'transporte'       │ 2026-11-09T00:00:00.000Z │ 'active'          │ true      │ 2026-11-13T14:00:40.815Z │
+│ 2       │ '0f351cc1-41de-4cc0-88ad-7e75624b1457' │ 'Médicos PJ de Ipatinga ampliam greve a todas as unidades de saúde'                  │ 'Ipatinga'            │ 'MG'  │ 'saude'            │ 2026-11-01T00:00:00.000Z │ 'active'          │ true      │ 2026-11-13T14:00:40.700Z │
+│ 3       │ 'b00283dd-48a3-4658-a3c4-12e72f75eda0' │ 'Educação municipal de Palmas realiza paralisação com ato público'                   │ 'Palmas'              │ 'TO'  │ 'educacao'         │ 2026-10-07T00:00:00.000Z │ 'ended'           │ true      │ 2026-11-13T13:58:53.497Z │
+│ 4       │ '8857c8f8-3ac1-441a-802e-ebc12820a701' │ 'Motoristas de ônibus paralisam lote D10 na Zona Sul de São Paulo'                   │ 'São Paulo'           │ 'SP'  │ 'transporte'       │ 2026-10-19T00:00:00.000Z │ 'active'          │ true      │ 2026-11-13T13:58:52.972Z │
+│ 5       │ 'c8f3861e-8bc4-4873-b6f1-c76b5dd2af8d' │ 'Rodoviários da Viação Santa Clara paralisam em Esteio e encerram após acordo'       │ 'Esteio'              │ 'RS'  │ 'transporte'       │ 2026-10-07T00:00:00.000Z │ 'ended'           │ true      │ 2026-11-13T13:58:51.029Z │
+│ 6       │ '698d89b0-9f3c-48e9-94eb-666bb2cb9da3' │ 'Sepe-RJ realiza paralisação de 24 horas da rede estadual de Educação'               │ null                  │ 'RJ'  │ 'educacao'         │ 2026-10-07T00:00:00.000Z │ 'ended'           │ true      │ 2026-11-13T13:58:50.652Z │
+│ 7       │ '7c3a4675-bce4-42c3-a9b7-452a7b7518d9' │ 'Servidores do Detran-RJ iniciam greve por tempo indeterminado'                      │ null                  │ 'RJ'  │ 'servico publico'  │ 2026-10-07T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:58:50.621Z │
+│ 8       │ 'b33c8315-d8b5-498b-9390-af776a97a7f4' │ 'Trabalhadores da BYD de Camaçari entram em greve por reajuste de 9,55%'             │ 'Camaçari'            │ 'BA'  │ 'industria'        │ 2026-09-27T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:57:01.527Z │
+│ 9       │ 'b92c39fb-92a1-4dba-94b9-fe69a751f963' │ 'Trabalhadores dos Correios e da Caixa mantêm greve no Acre'                         │ null                  │ 'AC'  │ 'bancario'         │ 2026-09-11T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:57:00.746Z │
+│ 10      │ 'ed55ff2b-229d-40da-9822-ab494331e4b6' │ 'Metalúrgicos entram em greve e paralisam fábricas em Criciúma'                      │ 'Criciúma'            │ 'SC'  │ 'industria'        │ 2026-09-23T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:56:59.822Z │
+│ 11      │ '4a68e8d8-d856-4bbc-b905-336cabe8590f' │ 'Trabalhadores da construção civil entram em greve e interditam rua em Belém'        │ 'Belém'               │ 'PA'  │ 'construcao civil' │ 2026-09-17T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:56:59.372Z │
+│ 12      │ '35481622-d710-4b87-85c7-e1594e65ccb2' │ 'Professores da rede privada de BH e região entram em greve por tempo indeterminado' │ null                  │ 'MG'  │ 'educacao'         │ 2026-09-16T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:56:59.356Z │
+│ 13      │ '7ea9c232-d227-4914-ad02-591aa0141a2d' │ 'Coletores de lixo de São José dos Campos entram em greve por tempo indeterminado'   │ 'São José dos Campos' │ 'SP'  │ 'servico publico'  │ 2026-09-14T00:00:00.000Z │ 'unconfirmed_end' │ true      │ 2026-11-13T13:56:59.343Z │
+│ 14      │ 'bb61b8ab-b994-44a7-bfd5-2caa6644e5d3' │ 'Administrativos da rede municipal de Educação de Goiânia encerram greve'            │ 'Goiânia'             │ 'GO'  │ 'educacao'         │ 2026-08-17T00:00:00.000Z │ 'ended'           │ true      │ 2026-11-13T13:56:59.313Z │
+└─────────┴────────────────────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────┴───────────────────────┴───────┴────────────────────┴──────────────────────────┴───────────────────┴───────────┴──────────────────────────┘
+=== POR CATEGORIA ===
+┌─────────┬────────────────────┬───────┐
+│ (index) │ categoria          │ total │
+├─────────┼────────────────────┼───────┤
+│ 0       │ 'educacao'         │ 14    │
+│ 1       │ 'transporte'       │ 13    │
+│ 2       │ 'servico publico'  │ 8     │
+│ 3       │ 'industria'        │ 5     │
+│ 4       │ 'bancario'         │ 3     │
+│ 5       │ 'saude'            │ 2     │
+│ 6       │ 'construcao civil' │ 1     │
+└─────────┴────────────────────┴───────┘
+=== POR STATUS ===
+┌─────────┬───────────────────┬───────┐
+│ (index) │ status            │ total │
+├─────────┼───────────────────┼───────┤
+│ 0       │ 'unconfirmed_end' │ 30    │
+│ 1       │ 'active'          │ 4     │
+│ 2       │ 'suspended'       │ 1     │
+│ 3       │ 'ended'           │ 11    │
+└─────────┴───────────────────┴───────┘
+=== POR UF ===
+┌─────────┬────────────┬───────┐
+│ (index) │ uf         │ total │
+├─────────┼────────────┼───────┤
+│ 0       │ 'SP'       │ 8     │
+│ 1       │ 'RJ'       │ 6     │
+│ 2       │ 'MG'       │ 6     │
+│ 3       │ 'BA'       │ 3     │
+│ 4       │ 'GO'       │ 2     │
+│ 5       │ 'AM'       │ 2     │
+│ 6       │ 'RS'       │ 2     │
+│ 7       │ 'SE'       │ 2     │
+│ 8       │ 'MS'       │ 2     │
+│ 9       │ 'PA'       │ 2     │
+│ 10      │ 'SC'       │ 1     │
+│ 11      │ 'PB'       │ 1     │
+│ 12      │ 'CE'       │ 1     │
+│ 13      │ 'AC'       │ 1     │
+│ 14      │ 'DF'       │ 1     │
+│ 15      │ 'AP'       │ 1     │
+│ 16      │ 'TO'       │ 1     │
+│ 17      │ 'MT'       │ 1     │
+│ 18      │ '(sem UF)' │ 3     │
+└─────────┴────────────┴───────┘

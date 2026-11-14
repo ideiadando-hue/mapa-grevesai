@@ -1,0 +1,219 @@
+{
+  "runAt": "2026-11-13T18:45:00",
+  "window": {
+    "from": "2026-11-13T06:45:00",
+    "to": "2026-11-13T18:45:00"
+  },
+  "items": [
+    {
+      "sourceUrl": "https://smetal.org.br/imprensa/trabalhadores-da-ykk-entram-em-greve-e-mantem-mobilizacao-nesta-sexta-feira/",
+      "publisher": "Sindicato dos Metalúrgicos de Sorocaba e Região (SMetal)",
+      "sourceType": "union",
+      "publishedAt": "2026-11-13",
+      "rawText": "Os trabalhadores e trabalhadoras da YKK, em Sorocaba, cruzaram os braços e entraram em greve nas primeiras horas desta sexta-feira, 13. A mobilização é uma continuidade do movimento iniciado na quinta-feira, 12, quando a categoria paralisou as atividades por cerca de três horas em protesto contra a proposta de reajuste do Programa de Participação nos Resultados (PPR) apresentada pela empresa. A direção da YKK ofereceu um reajuste de 6,2% no benefício, índice rejeitado pelos trabalhadores, que reivindicam uma valorização maior do PPR. Diante da falta de avanço na negociação, a categoria decidiu intensificar a mobilização e ampliar o movimento nesta sexta-feira. Para o diretor executivo do Sindicato dos Metalúrgicos de Sorocaba e Região, Francisco Lucrecio Saldanha, a greve é um instrumento legítimo de pressão e reivindicação dos trabalhadores. 'A greve é um instrumento legítimo de luta dos trabalhadores e trabalhadoras. Quando a negociação não avança e a proposta apresentada não atende às expectativas da categoria, é por meio da mobilização coletiva que mostramos nossa força e reivindicamos a valorização que merecemos. A decisão de cruzar os braços é dos trabalhadores, e o Sindicato está junto nessa luta, dando todo o suporte necessário', afirma Saldanha. Na quinta-feira, a assembleia que definiu a continuidade da mobilização foi conduzida por Saldanha, acompanhado por integrantes da direção sindical. A decisão de intensificar o movimento foi construída coletivamente pelos trabalhadores. A paralisação deve ter continuidade no período da tarde desta sexta-feira, quando os trabalhadores seguem mobilizados em defesa de uma proposta que atenda às reivindicações da categoria. O Sindicato acompanha o movimento e reforça a importância da organização e da participação dos trabalhadores na luta por melhores condições e valorização.",
+      "extraction": {
+        "isAnnounced": false,
+        "strikes": [
+          {
+            "title": "Trabalhadores da YKK entram em greve em Sorocaba por reajuste maior no PPR",
+            "scope": "municipal",
+            "city": "Sorocaba",
+            "state": "SP",
+            "category": "industria",
+            "entityName": "Sindicato dos Metalúrgicos de Sorocaba e Região (SMetal)",
+            "lat": null,
+            "lng": null,
+            "startedAt": "2026-11-13",
+            "endedAt": null,
+            "status": "active",
+            "demands": "Reajuste maior no Programa de Participação nos Resultados (PPR), após rejeição da proposta de 6,2%",
+            "confidence": "likely",
+            "confidenceScore": 0.7,
+            "dedupeKey": "sorocaba|industria|2026-11-13|trabalhadores-da-ykk-entram-em-greve-em-sorocaba-por-reajuste-maior-no-ppr",
+            "excerpt": "Os trabalhadores e trabalhadoras da YKK, em Sorocaba, cruzaram os braços e entraram em greve nas primeiras horas desta sexta-feira, 13."
+          }
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://tribunadonorte.com.br/rio-grande-do-norte/servidores-do-idema-aprovam-paralisacao-na-quinta-feira-19-categoria-cobra-governo-por-pagamento/",
+      "publisher": "Tribuna do Norte",
+      "sourceType": "news",
+      "publishedAt": "2026-11-13",
+      "rawText": "Os servidores do Instituto de Desenvolvimento Sustentável e Meio Ambiente do Rio Grande do Norte (Idema) anunciaram que vão paralisar as atividades na próxima quinta-feira (19) para pressionar o Governo do Estado a efetivar o pagamento da Gratificação de Desempenho de Atividade Econômica e Meio Ambiente (Gaema). O benefício é de 25% do vencimento básico do cargo efetivo para quem está no exercício de suas funções. A paralisação foi aprovada em assembleia realizada pelo Sindicato dos Servidores Públicos da Administração Indireta do RN (Sinai-RN), nesta sexta-feira (13), nas dependências do Instituto. A categoria reivindica que a tramitação necessária à publicação da gratificação seja concluída a tempo de incluí-la na folha de pagamento de novembro. Instituída pela Lei Complementar nº 202/2001 e reestruturada pela LC nº 328/2006, a Gaema não está sendo paga apenas aos servidores que ingressaram por meio do concurso público de 2025. A Procuradoria-Geral do Estado (PGE) já reconheceu o direito da categoria ao benefício desde a posse no Idema. Ao deixar de implantar a gratificação, o Governo do RN descumpre a legislação e mantém os trabalhadores sem receber uma parcela remuneratória à qual têm direito.",
+      "extraction": {
+        "isAnnounced": true,
+        "strikes": [
+          {
+            "title": "Servidores do Idema aprovam paralisação para cobrar pagamento da Gaema",
+            "scope": "state",
+            "city": null,
+            "state": "RN",
+            "category": "servico publico",
+            "entityName": "Sinai-RN (Sindicato dos Servidores Públicos da Administração Indireta do RN)",
+            "lat": null,
+            "lng": null,
+            "startedAt": "2026-11-19",
+            "endedAt": null,
+            "status": "active",
+            "demands": "Pagamento da Gratificação de Desempenho de Atividade Econômica e Meio Ambiente (Gaema), de 25% do vencimento básico, com inclusão na folha de novembro",
+            "confidence": "confirmed",
+            "confidenceScore": 0.8,
+            "dedupeKey": "sem-cidade|servico-publico|2026-11-19|servidores-do-idema-aprovam-paralisacao-para-cobrar-pagamento-da-gaema",
+            "excerpt": "Os servidores do Instituto de Desenvolvimento Sustentável e Meio Ambiente do Rio Grande do Norte (Idema) anunciaram que vão paralisar as atividades na próxima quinta-feira (19)"
+          }
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://www.bnewsrn.com.br/noticias/cidades/servidores-do-idema-aprovam-paralisacao-no-rn.html",
+      "publisher": "BNews RN",
+      "sourceType": "news",
+      "publishedAt": "2026-11-13",
+      "rawText": "Os servidores do Instituto de Desenvolvimento Sustentável e Meio Ambiente do Rio Grande do Norte (Idema) vão paralisar as atividades na próxima quinta-feira (19) para pressionar o Governo do Estado a efetivar o pagamento da Gratificação de Desempenho de Atividade Econômica e Meio Ambiente (Gaema). O benefício é de 25% do vencimento básico do cargo efetivo para quem está no exercício de suas funções. A paralisação foi aprovada em assembleia realizada pelo Sindicato dos Servidores Públicos da Administração Indireta do RN (Sinai-RN), nesta sexta-feira (13), nas dependências do Instituto. A categoria reivindica que a tramitação necessária à publicação da gratificação seja concluída a tempo de incluí-la na folha de pagamento de novembro. Instituída pela Lei Complementar nº 202/2001 e reestruturada pela LC nº 328/2006, a Gaema não está sendo paga apenas aos servidores que ingressaram por meio do concurso público de 2025. A Procuradoria-Geral do Estado (PGE) já reconheceu o direito da categoria ao benefício desde a posse no Idema. 'Ao deixar de implantar a gratificação, o Governo do RN descumpre a legislação e mantém os trabalhadores sem receber uma parcela remuneratória à qual têm direito', afirma a categoria.",
+      "extraction": {
+        "isAnnounced": true,
+        "strikes": [
+          {
+            "title": "Servidores do Idema aprovam paralisação no RN",
+            "scope": "state",
+            "city": null,
+            "state": "RN",
+            "category": "servico publico",
+            "entityName": "Sinai-RN (Sindicato dos Servidores Públicos da Administração Indireta do RN)",
+            "lat": null,
+            "lng": null,
+            "startedAt": "2026-11-19",
+            "endedAt": null,
+            "status": "active",
+            "demands": "Pagamento da Gratificação de Desempenho de Atividade Econômica e Meio Ambiente (Gaema), de 25% do vencimento básico, com inclusão na folha de novembro",
+            "confidence": "confirmed",
+            "confidenceScore": 0.78,
+            "dedupeKey": "sem-cidade|servico-publico|2026-11-19|servidores-do-idema-aprovam-paralisacao-no-rn",
+            "excerpt": "A paralisação foi aprovada em assembleia realizada pelo Sindicato dos Servidores Públicos da Administração Indireta do RN (Sinai-RN), nesta sexta-feira (13), nas dependências do Instituto."
+          }
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://leiasemprebrasil.com.br/2026/11/13/sisemjun-paralisacao-campanha-salarial-2027/",
+      "publisher": "Leia Sempre Brasil",
+      "sourceType": "news",
+      "publishedAt": "2026-11-13",
+      "rawText": "O Sindicato dos Servidores Públicos Municipais de Juazeiro do Norte (SISEMJUN) convocou os servidores municipais, incluindo os profissionais do Magistério, para um dia de paralisação na quinta-feira, 26 de novembro de 2026. A mobilização será acompanhada de Assembleia Geral Ordinária de abertura da Campanha Salarial 2027, marcada para as 9h, na Praça dos Ourives, no bairro São Miguel. O encontro terá como principal objetivo discutir e aprovar as pautas de reivindicações dos trabalhadores do serviço público municipal para o próximo ano. A assembleia também deverá definir os encaminhamentos políticos e organizativos da campanha salarial. Entre os pontos da convocação estão a aprovação da pauta geral de reivindicações dos servidores e das pautas específicas dos diferentes setores do funcionalismo municipal. Também está prevista a composição do Comando de Mobilização da Campanha Salarial 2027, responsável por organizar e acompanhar as atividades de mobilização da categoria. A pauta da assembleia inclui ainda informes gerais, encaminhamentos e a apreciação de proposta orçamentária referente a 2026, destinada a ressarcimentos indenizatórios em benefício de membros da diretoria do sindicato que tiveram redução remuneratória em decorrência do usufruto de licença para mandato classista. O SISEMJUN informa que comunicou oficialmente o Governo Municipal sobre a realização da paralisação, por meio dos Ofícios nº 72 e 73/2026, solicitando a liberação dos servidores efetivos, inclusive profissionais do Magistério, de suas atividades na administração municipal durante o dia 26 de novembro. A abertura da Campanha Salarial 2027 representa o início de um novo processo de negociação entre a representação sindical e a administração municipal.",
+      "extraction": {
+        "isAnnounced": true,
+        "strikes": [
+          {
+            "title": "SISEMJUN convoca servidores municipais de Juazeiro do Norte para paralisação de um dia",
+            "scope": "municipal",
+            "city": "Juazeiro do Norte",
+            "state": "CE",
+            "category": "servico publico",
+            "entityName": "SISEMJUN (Sindicato dos Servidores Públicos Municipais de Juazeiro do Norte)",
+            "lat": null,
+            "lng": null,
+            "startedAt": "2026-11-26",
+            "endedAt": null,
+            "status": "active",
+            "demands": "Abertura da Campanha Salarial 2027 e aprovação da pauta de reivindicações dos servidores municipais, incluindo o Magistério",
+            "confidence": "confirmed",
+            "confidenceScore": 0.76,
+            "dedupeKey": "juazeiro-do-norte|servico-publico|2026-11-26|sisemjun-convoca-servidores-municipais-de-juazeiro-do-norte-para-paralisacao-de-um-dia",
+            "excerpt": "O Sindicato dos Servidores Públicos Municipais de Juazeiro do Norte (SISEMJUN) convocou os servidores municipais, incluindo os profissionais do Magistério, para um dia de paralisação na quinta-feira, 26 de novembro de 2026."
+          }
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://midiamax.com.br/cotidiano/2026/enfermeiros-santa-casa-recebem-salario-integral-sindicato-suspende-indicativo-greve/",
+      "publisher": "Jornal Midiamax",
+      "sourceType": "news",
+      "publishedAt": "2026-11-13",
+      "rawText": "O Siems (Sindicato dos Trabalhadores na Área de Enfermagem de Mato Grosso do Sul) suspendeu, nesta sexta-feira (13), o indicativo de greve dos profissionais de enfermagem da Santa Casa de Campo Grande, após confirmar que a maioria dos trabalhadores recebeu os valores salariais que estavam pendentes. A paralisação estava prevista para começar às 8h deste sábado (14). A decisão foi tomada após dirigentes sindicais passarem a noite de quinta-feira (12) no hospital, conferindo os pagamentos diretamente com os profissionais. Apesar da regularização para a maior parte da categoria, ainda há relatos de diferenças no adicional de insalubridade. As pendências, entretanto, continuarão sendo cobradas individualmente. Segundo o sindicato, os trabalhadores que identificarem diferenças nos valores, principalmente relacionadas ao adicional de insalubridade, deverão encaminhar os holerites à entidade. Assim, o sindicato irá tratar cada caso individualmente com o hospital para o recebimento dos pagamentos pendentes. A crise se agravou na segunda-feira (9), quando trabalhadores denunciaram ter recebido apenas R$ 500 ou metade dos salários. Também foram relatadas pendências em horas extras, insalubridade, adicional noturno e feriados trabalhados. O movimento estava previsto para começar às 8h de sábado (14), após o prazo de 72 horas.",
+      "extraction": {
+        "isAnnounced": false,
+        "strikes": [
+          {
+            "title": "Siems suspende indicativo de greve da enfermagem da Santa Casa de Campo Grande",
+            "scope": "municipal",
+            "city": "Campo Grande",
+            "state": "MS",
+            "category": "saude",
+            "entityName": "Siems (Sindicato dos Trabalhadores na Área de Enfermagem de Mato Grosso do Sul)",
+            "lat": null,
+            "lng": null,
+            "startedAt": null,
+            "endedAt": null,
+            "status": "suspended",
+            "demands": "Pagamento integral dos salários de outubro, horas extras, adicional noturno, feriados trabalhados e adicional de insalubridade",
+            "confidence": "confirmed",
+            "confidenceScore": 0.8,
+            "dedupeKey": "campo-grande|saude|sem-data|siems-suspende-indicativo-de-greve-da-enfermagem-da-santa-casa-de-campo-grande",
+            "excerpt": "O Siems (Sindicato dos Trabalhadores na Área de Enfermagem de Mato Grosso do Sul) suspendeu, nesta sexta-feira (13), o indicativo de greve dos profissionais de enfermagem da Santa Casa de Campo Grande"
+          }
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://folhacg.com.br/saude/enfermagem-confirma-greve-na-santa-casa-mesmo-apos-repasses/",
+      "publisher": "Folha de Campo Grande",
+      "sourceType": "news",
+      "publishedAt": "2026-11-13",
+      "rawText": "O SIEMS (Sindicato dos Trabalhadores na Área de Enfermagem de Mato Grosso do Sul) confirmou que a greve dos profissionais da Santa Casa de Campo Grande começa às 8h deste sábado (14). A decisão foi aprovada em assembleia na quarta-feira (11/11), depois de denúncias de pagamento parcial dos salários e ausência de adicionais trabalhistas. A vice-presidente do sindicato, Helena Delgado, confirmou o início da mobilização. A categoria reivindica a regularização imediata dos valores devidos, incluindo horas extras, feriados trabalhados, adicional noturno e insalubridade. A Santa Casa iniciou, na tarde de quinta-feira (12), o pagamento de valores atrasados aos profissionais de enfermagem. O SIEMS informou que grande parte dos trabalhadores recebeu valores referentes à folha de outubro de 2026, mas que ainda há divergências a serem esclarecidas, sobretudo no adicional de insalubridade. O sindicato está realizando conferência com trabalhadores de diferentes setores para identificar quem recebeu os valores e se os depósitos correspondem integralmente ao devido. Em posicionamento oficial, a Santa Casa informou que o holerite do mês vigente foi disponibilizado na segunda-feira (9) e que os valores de insalubridade, horas extras e feriados trabalhados seriam pagos por meio de folha complementar, com previsão de crédito até o fim de novembro. O SIEMS afirmou que acionou a Justiça do Trabalho e pediu intervenção do Ministério Público de Mato Grosso do Sul para garantir o pagamento integral dos profissionais. 'Os pagamentos estão atrasados', afirmou Helena Delgado. A proposta aprovada prevê que cerca de 30% da enfermagem permaneça em atividade, enquanto o CTI e o ambulatório deverão manter 50% das equipes.",
+      "extraction": {
+        "isAnnounced": true,
+        "strikes": [
+          {
+            "title": "Enfermagem confirma greve na Santa Casa de Campo Grande para sábado",
+            "scope": "municipal",
+            "city": "Campo Grande",
+            "state": "MS",
+            "category": "saude",
+            "entityName": "SIEMS (Sindicato dos Trabalhadores na Área de Enfermagem de Mato Grosso do Sul)",
+            "lat": null,
+            "lng": null,
+            "startedAt": "2026-11-14",
+            "endedAt": null,
+            "status": "active",
+            "demands": "Regularização imediata dos valores devidos: horas extras, feriados trabalhados, adicional noturno e insalubridade",
+            "confidence": "confirmed",
+            "confidenceScore": 0.78,
+            "dedupeKey": "campo-grande|saude|2026-11-14|enfermagem-confirma-greve-na-santa-casa-de-campo-grande-para-sabado",
+            "excerpt": "O SIEMS (Sindicato dos Trabalhadores na Área de Enfermagem de Mato Grosso do Sul) confirmou que a greve dos profissionais da Santa Casa de Campo Grande começa às 8h deste sábado (14)."
+          }
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://horams.com.br/santa-casa-justica-deficit-59-milhoes-greve-enfermagem-sabado-14/",
+      "publisher": "HoraMS",
+      "sourceType": "news",
+      "publishedAt": "2026-11-13",
+      "rawText": "A Justiça determinou que a Prefeitura de Campo Grande e o Governo de Mato Grosso do Sul cubram, de forma provisória, o déficit operacional da Santa Casa de Campo Grande, estimado em R$ 19,7 milhões por mês. Em 90 dias, prazo pelo qual o contrato atual foi prorrogado, o valor chega a R$ 59,1 milhões. A decisão, do juiz Eduardo Lacerda Trevisan, da 2ª Vara de Direitos Difusos, Coletivos e Individuais Homogêneos, foi divulgada na quinta-feira (12). Mesmo com a decisão, o Sindicato dos Trabalhadores na Área de Enfermagem de MS (Siems) informou que a greve da enfermagem do hospital está mantida e deve começar às 8h deste sábado (14), conforme confirmação divulgada nesta sexta-feira (13) pelo VoxMS. A categoria reclama do pagamento parcial dos salários de outubro. A paralisação foi aprovada em assembleia na quarta-feira (11), com prazo legal de 72 horas para a regularização dos pagamentos. Segundo o sindicato, a previsão é que setores como CTI (Centro de Terapia Intensiva) e ambulatório funcionem com 50% das equipes durante o movimento. O Siems também acionou a Justiça do Trabalho para cobrar o pagamento integral. A juíza do Trabalho deu 24 horas para o sindicato apresentar extratos bancários ou outros documentos que comprovem o pagamento parcial.",
+      "extraction": {
+        "isAnnounced": true,
+        "strikes": [
+          {
+            "title": "Greve da enfermagem da Santa Casa de Campo Grande segue marcada para sábado",
+            "scope": "municipal",
+            "city": "Campo Grande",
+            "state": "MS",
+            "category": "saude",
+            "entityName": "Siems (Sindicato dos Trabalhadores na Área de Enfermagem de MS)",
+            "lat": null,
+            "lng": null,
+            "startedAt": "2026-11-14",
+            "endedAt": null,
+            "status": "active",
+            "demands": "Pagamento integral dos salários de outubro e dos adicionais pendentes",
+            "confidence": "confirmed",
+            "confidenceScore": 0.76,
+            "dedupeKey": "campo-grande|saude|2026-11-14|greve-da-enfermagem-da-santa-casa-de-campo-grande-segue-marcada-para-sabado",
+            "excerpt": "Mesmo com a decisão, o Sindicato dos Trabalhadores na Área de Enfermagem de MS (Siems) informou que a greve da enfermagem do hospital está mantida e deve começar às 8h deste sábado (14)"
+          }
+        ]
+      }
+    }
+  ]
+}

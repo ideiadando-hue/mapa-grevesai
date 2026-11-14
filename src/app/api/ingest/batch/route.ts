@@ -4,6 +4,7 @@ import { createLog, addItem, saveLog } from '@/lib/searchLog';
 import type { RuleResult } from '@/lib/searchLog';
 import type { ExtractionResult } from '@/lib/extractor';
 import { geocode } from '@/lib/geocode';
+import { parseJsonTolerante } from '@/lib/parseJson';
 
 type BatchItem = {
   sourceUrl: string;
@@ -20,8 +21,33 @@ type BatchPayload = {
 };
 
 export async function POST(request: Request) {
-  const body: BatchPayload = await request.json();
-  const items = body.items ?? [];
+  let body: BatchPayload;
+
+  try {
+    const texto = await request.text();
+    body = parseJsonTolerante<BatchPayload>(texto);
+  } catch (e) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: 'JSON invalido. Verifique aspas nao escapadas no rawText.',
+        detalhe: String(e),
+      },
+      { status: 400 }
+    );
+  }
+
+  if (!body || !Array.isArray(body.items)) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: 'Payload invalido: campo "items" ausente ou nao e um array.',
+      },
+      { status: 400 }
+    );
+  }
+
+  const items = body.items;
   const log = createLog(new Date());
 
   for (const input of items) {

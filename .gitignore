@@ -44,3 +44,6 @@ logs/
 *.sql 
 backup-*.sql 
 !prisma/migrations/**/*.sql 
+.vercel
+.env*
+.env.production 
