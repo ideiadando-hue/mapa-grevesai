@@ -6,6 +6,8 @@ import type { ExtractionResult } from '@/lib/extractor';
 import { geocode } from '@/lib/geocode';
 import { parseJsonTolerante } from '@/lib/parseJson';
 
+export const maxDuration = 60;
+
 type BatchItem = {
   sourceUrl: string;
   publisher: string | null;
@@ -41,7 +43,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         ok: false,
-        error: 'Payload invalido: campo "items" ausente ou nao e um array.',
+        error: 'Payload invalido: campo items ausente ou nao e um array.',
       },
       { status: 400 }
     );
@@ -141,7 +143,7 @@ export async function POST(request: Request) {
           sourceType,
           publishedAt,
           excerpt: strike.excerpt,
-          summary: `Fonte anexada a registro existente: ${duplicate.title}`,
+          summary: 'Fonte anexada a registro existente: ' + duplicate.title,
           extracted: strike,
           rules: { R3: 'pass' },
           verdict: 'rejected',
@@ -194,7 +196,7 @@ export async function POST(request: Request) {
         sourceType,
         publishedAt,
         excerpt: strike.excerpt,
-        summary: `${strike.title} - ${strike.city ?? 'Nacional'}`,
+        summary: strike.title + ' - ' + (strike.city ?? 'Nacional'),
         extracted: strike,
         rules,
         verdict: 'approved',
@@ -204,6 +206,17 @@ export async function POST(request: Request) {
     }
   }
 
-  const logPath = await saveLog(log);
-  return NextResponse.json({ ok: true, logPath, stats: log.stats });
+  let logPath = '';
+  try {
+    logPath = await saveLog(log);
+  } catch (e) {
+    console.error('Falha ao salvar log:', e);
+  }
+
+  return NextResponse.json({
+    ok: true,
+    logPath,
+    stats: log.stats,
+    items: log.items,
+  });
 }

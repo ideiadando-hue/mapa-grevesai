@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import os from 'os';
 
 export type RuleResult = 'pass' | 'fail' | 'warn';
 
@@ -38,7 +39,9 @@ export type SearchLog = {
   items: LogItem[];
 };
 
-const LOG_DIR = path.join(process.cwd(), 'logs');
+// Na Vercel, process.cwd() (/var/task) e somente leitura.
+// /tmp e o unico diretorio gravavel (efemero, some entre invocacoes).
+const LOG_DIR = path.join(os.tmpdir(), 'logs');
 
 export function createLog(startedAt: Date): SearchLog {
   return {
@@ -58,10 +61,17 @@ export function addItem(log: SearchLog, item: LogItem): void {
 }
 
 export async function saveLog(log: SearchLog): Promise<string> {
-  await fs.mkdir(LOG_DIR, { recursive: true });
   log.finishedAt = new Date().toISOString();
   const filename = log.runId.replace(/[:.]/g, '-') + '.json';
-  const filepath = path.join(LOG_DIR, filename);
-  await fs.writeFile(filepath, JSON.stringify(log, null, 2), 'utf8');
-  return filepath;
+
+  try {
+    await fs.mkdir(LOG_DIR, { recursive: true });
+    const filepath = path.join(LOG_DIR, filename);
+    await fs.writeFile(filepath, JSON.stringify(log, null, 2), 'utf8');
+    return filepath;
+  } catch (e) {
+    // Nao deixa a falha do log derrubar a ingestao.
+    console.error('Falha ao salvar log:', e);
+    return '';
+  }
 }
